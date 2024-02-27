@@ -1,0 +1,36 @@
+nav {
+  height: 56px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background: #3f51b5;
+  box-shadow: 0 5px 10px #ccc; 
+  padding-left: 50px;
+  margin-top: 15px;
+}
+/* Basic styles for nav links */
+nav a {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100%;
+  text-decoration: none;
+  background-color: #ccc;
+  color:white;
+ 
+}
+/* Specific styles for non-active links */
+.link {
+  color: white;
+}
+/* Specific styles for active links */
+.link-active {
+  color: black;
+  background-color: orange;
+}
+.content {
+  margin-top: 100px;
+  text-align: center;
+  font-family: cursive;
+}
